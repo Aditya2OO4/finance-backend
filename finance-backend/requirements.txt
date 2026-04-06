@@ -1,0 +1,20 @@
+# Finance Backend — Zero external dependencies!
+# Everything runs on Python 3.10+ stdlib only.
+#
+# stdlib modules used:
+#   http.server     — HTTP server
+#   sqlite3         — Database
+#   hashlib, hmac   — Password hashing & JWT signing
+#   json            — Request/response serialization
+#   re              — URL routing pattern matching
+#   urllib.parse    — Query string parsing
+#   threading       — Rate limiter thread-safety
+#   uuid            — ID generation
+#   datetime        — Date validation & timestamps
+#   collections     — deque for rate limiter
+#   base64          — JWT encoding
+#   time            — Token expiry
+#
+# To run: python main.py
+# To seed: python seed.py
+# To test: python -m unittest tests/test_api.py -v
